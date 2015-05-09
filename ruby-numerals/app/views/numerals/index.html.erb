@@ -1,0 +1,13 @@
+<div class="well">
+
+	<%= form_tag(nil, :class=>"form-inline") do %>
+		<div class="form-group">
+			<%= label_tag(:numeral, "Numeric value:") %>
+			<%= number_field_tag(:numeral, nil, :class=>"form-control") %>
+		</div>
+		<div class="form-group">
+			<%= submit_tag("Submit",:class=>"btn btn-primary") %>
+		</div>
+	<% end %>
+
+</div>

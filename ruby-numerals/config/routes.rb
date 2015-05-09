@@ -53,4 +53,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  get '' => 'numerals#index', as: :index
+  post '' => 'numerals#index', as: :index_post
 end
